@@ -142,4 +142,4 @@ while ($row = mysqli_fetch_assoc($sql)) {
 </div>
 </div>
 
-<?php include('includes/footer.php'); ?>
+<?php include('includes/simple-footer.php'); ?>

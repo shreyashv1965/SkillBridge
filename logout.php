@@ -24,6 +24,6 @@ session_unset();
 session_destroy();
 
 /* Redirect */
-header("Location: index.php");
+header("Location: student-login.php");
 exit();
 ?>

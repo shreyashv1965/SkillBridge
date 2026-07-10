@@ -11,5 +11,5 @@ if (!$con) {
 }
 
 /* ✅ IMPORTANT: Base URL for entire project */
-$base_url = "/onlinecourse/";
+$base_url = "/SkillBridge/";
 ?>

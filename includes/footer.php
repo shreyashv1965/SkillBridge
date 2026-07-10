@@ -1,4 +1,4 @@
-<?php $base = "/onlinecourse/"; ?>
+<?php $base = "/SkillBridge/"; ?>
 
 <footer class="footer-section">
     <div class="container">
@@ -29,7 +29,7 @@
             <div class="col-md-4 col-sm-12">
                 <h4>Contact Us</h4>
                 <p>
-                    📧 Email: support@skillbridge.com<br>
+                    📧 Email: support.skillbridge@gmail.com<br>
                     📍 Location: Karad, Maharashtra, India
                 </p>
             </div>

@@ -1,113 +1,69 @@
-﻿
-/* =========================
-   FIX FOR INDEX PAGE UI
-========================= */
+﻿/* ==========================================================
+   SKILLBRIDGE - COMMON STYLES
+========================================================== */
 
-body {
-    background: #f4f6f9;
+body{
+    background:#F4F6F9;
 }
 
-/* Center login box */
-.container {
-    max-width: 1000px;
+h1,
+h2,
+h3{
+    color:#333;
 }
 
-/* Login form improvement */
-form {
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 6px;
-    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+/* Header */
+
+.navbar-inverse{
+    background:#34495E !important;
+    border:none;
 }
 
-/* Headings */
-h1, h2, h3 {
-    color: #333;
+.navbar-inverse .navbar-brand{
+    color:#fff !important;
 }
 
-/* Latest news box better look */
-.alert-info {
-    border-left: 5px solid #F0677C;
-    background: #e9f7ff;
+.navbar-inverse .navbar-nav>li>a{
+    color:#fff !important;
 }
 
-/* Buttons fix */
-.btn-primary {
-    background-color: #F0677C;
-    border: none;
+/* Primary Buttons */
+
+.btn-primary{
+    background:#337AB7;
+    border-color:#2E6DA4;
+    color:#fff;
 }
 
-.btn-primary:hover {
-    background-color: #c94f63;
+.btn-primary:hover{
+    background:#286090;
+    border-color:#204D74;
 }
 
-/* Navbar fix (important for header) */
-.navbar-inverse {
-    background-color: #C36464 !important;
-    border: none;
+/* Alert */
+
+.alert-info{
+    border-left:5px solid #337AB7;
+    background:#EAF4FC;
+    color:#31708F;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-    color: #fff !important;
+/* Footer */
+
+.main-footer{
+    background:#2F3E4E;
+    color:#fff;
 }
 
-.navbar-inverse .navbar-brand {
-    color: #fff !important;
+.simple-footer{
+    width:100%;
+    background:#2F3E4E;
+    color:#d8d8d8;
+    text-align:center;
+    padding:18px;
+    margin-top:60px;
 }
 
-
-/* =========================
-   FIX FOR INDEX PAGE UI
-========================= */
-
-body {
-    background: #f4f6f9;
-}
-
-/* Center login box */
-.container {
-    max-width: 1000px;
-}
-
-/* Login form improvement */
-form {
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 6px;
-    box-shadow: 0 0 12px rgba(0,0,0,0.1);
-}
-
-/* Headings */
-h1, h2, h3 {
-    color: #333;
-}
-
-/* Latest news box better look */
-.alert-info {
-    border-left: 5px solid #F0677C;
-    background: #e9f7ff;
-}
-
-/* Buttons fix */
-.btn-primary {
-    background-color: #F0677C;
-    border: none;
-}
-
-.btn-primary:hover {
-    background-color: #c94f63;
-}
-
-/* Navbar fix (important for header) */
-.navbar-inverse {
-    background-color: #C36464 !important;
-    border: none;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-    color: #fff !important;
-}
-
-.navbar-inverse .navbar-brand {
-    color: #fff !important;
+.simple-footer p{
+    margin:0;
 }

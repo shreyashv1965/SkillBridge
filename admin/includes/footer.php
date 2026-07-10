@@ -29,7 +29,7 @@
             <div class="col-md-4 col-sm-12">
                 <h4>Contact Us</h4>
                 <p>
-                    📧 Email: support@skillbridge.com<br>
+                    📧 Email: support.skillbridge@gmail.com<br>
                     📍 Location: Karad, Maharashtra, India
                 </p>
             </div>
@@ -49,11 +49,11 @@
 </footer>
 
 <!-- ✅ JS FIX (VERY IMPORTANT) -->
-<script src="/onlinecourse/assets/js/jquery-1.11.1.js"></script>
-<script src="/onlinecourse/assets/js/bootstrap.js"></script>
+<script src="/SkillBridge/assets/js/jquery-1.11.1.js"></script>
+<script src="/SkillBridge/assets/js/bootstrap.js"></script>
 
 <!-- Optional custom JS -->
-<script src="/onlinecourse/assets/js/custom.js"></script>
+<script src="/SkillBridge/assets/js/custom.js"></script>
 
 <style>
 .footer-section {

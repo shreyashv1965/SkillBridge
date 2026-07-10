@@ -62,4 +62,5 @@ include('includes/home-menubar.php');
 
 </div>
 
-<?php include('admin/includes/footer.php'); ?>
+<!-- ✅ Footer -->
+<?php include('admin/includes/simple-footer.php'); ?>

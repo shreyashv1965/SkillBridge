@@ -36,9 +36,9 @@ if (isset($_POST['submit'])) {
     <title>Admin | Student Registration</title>
 
     <!-- ✅ FIXED CSS -->
-    <link rel="stylesheet" href="/onlinecourse/assets/css/bootstrap.css">
-    <link rel="stylesheet" href="/onlinecourse/assets/css/font-awesome.css">
-    <link rel="stylesheet" href="/onlinecourse/assets/css/style.css">
+    <link rel="stylesheet" href="/SkillBridge/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/SkillBridge/assets/css/font-awesome.css">
+    <link rel="stylesheet" href="/SkillBridge/assets/css/style.css">
 </head>
 
 <body>
@@ -96,8 +96,8 @@ if (isset($_POST['submit'])) {
 <?php include('includes/footer.php'); ?>
 
 <!-- ✅ FIXED JS -->
-<script src="/onlinecourse/assets/js/jquery-1.11.1.js"></script>
-<script src="/onlinecourse/assets/js/bootstrap.js"></script>
+<script src="/SkillBridge/assets/js/jquery-1.11.1.js"></script>
+<script src="/SkillBridge/assets/js/bootstrap.js"></script>
 
 </body>
 </html>

@@ -1,4 +1,4 @@
-<?php $base = "/onlinecourse/"; ?>
+<?php $base = "/SkillBridge/"; ?>
 
 <!-- NAVBAR -->
 <nav class="navbar navbar-default">

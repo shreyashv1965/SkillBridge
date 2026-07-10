@@ -1,47 +1,93 @@
-<div class="container">
-    <h1 class="page-head-line">About Us</h1>
+<?php
+session_start();
+include("includes/config.php");
+?>
 
-    <div class="panel panel-default">
-        <div class="panel-body">
+<?php include("includes/header.php"); ?>
+<?php include("includes/home-menubar.php"); ?>
 
-            <h3>Welcome to SkillBridge</h3>
-            <p>
-                SkillBridge is a modern online course registration and learning management system
-                designed to simplify academic processes for both students and administrators.
-                Our platform aims to bridge the gap between traditional education systems and
-                digital transformation.
-            </p>
-
-            <h3>Our Mission</h3>
-            <p>
-                Our mission is to provide a seamless, efficient, and user-friendly system that
-                enables students to enroll in courses بسهولة (easily) and allows administrators
-                to manage academic data with accuracy and control.
-            </p>
-
-            <h3>What We Offer</h3>
-            <ul>
-                <li>Easy course registration for students</li>
-                <li>Secure student management system</li>
-                <li>Admin dashboard for complete control</li>
-                <li>Real-time updates and notifications</li>
-                <li>Organized academic data handling</li>
-            </ul>
-
-            <h3>Why Choose SkillBridge?</h3>
-            <p>
-                SkillBridge is built with simplicity and efficiency in mind. It reduces manual
-                work, minimizes errors, and provides a structured approach to managing courses,
-                students, and academic information.
-            </p>
-
-            <h3>Our Vision</h3>
-            <p>
-                We aim to continuously improve and expand our system to support advanced features
-                such as analytics, automation, and intelligent recommendations to enhance the
-                overall educational experience.
-            </p>
-
-        </div>
+<div class="banner">
+    <div class="container">
+        <h1>About SkillBridge</h1>
+        <p>Online Course Registration System</p>
     </div>
 </div>
+
+<div class="container about-section">
+
+    <div class="about-card">
+
+        <h2>Welcome to SkillBridge</h2>
+        <hr>
+
+        <p>
+            <strong>SkillBridge</strong> is a web-based Online Course Registration System
+            developed to simplify and modernize the academic course enrollment process.
+            The platform provides students with an easy way to register for courses,
+            manage their academic information, and view their enrollment history,
+            while giving administrators complete control over courses, departments,
+            student records, and announcements.
+        </p>
+
+        <h3>Our Mission</h3>
+
+        <p>
+            Our mission is to provide a secure, efficient, and user-friendly platform
+            that reduces manual paperwork, minimizes registration errors, and improves
+            communication between students and academic administrators.
+        </p>
+
+        <h3>Key Features</h3>
+
+        <ul>
+            <li>Secure Student & Administrator Authentication</li>
+            <li>Online Course Registration</li>
+            <li>Student Profile Management</li>
+            <li>Course Enrollment History</li>
+            <li>Course & Department Management</li>
+            <li>Admin Dashboard with Complete Control</li>
+            <li>Latest News & Notifications</li>
+            <li>Password Encryption for Enhanced Security</li>
+            <li>Responsive and User-Friendly Interface</li>
+        </ul>
+
+        <h3>Technologies Used</h3>
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+            <div class="col-md-6">
+                <ul>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                    <li>XAMPP Server</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <h3>Our Vision</h3>
+
+        <p>
+            SkillBridge aims to bridge the gap between traditional academic administration
+            and modern digital solutions by providing an intelligent, reliable, and
+            scalable platform for course registration. The project focuses on improving
+            efficiency, transparency, and accessibility while delivering a seamless
+            experience for both students and administrators.
+        </p>
+
+    </div>
+
+</div>
+
+<?php include("includes/simple-footer.php"); ?>
+  

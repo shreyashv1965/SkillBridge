@@ -143,3 +143,5 @@ if (!$query) {
 
 </body>
 </html>
+
+<?php include('includes/simple-footer.php'); ?>

@@ -125,7 +125,7 @@ while($row=mysqli_fetch_array($sql))
 
         </div>
     </div>
-  <?php include('includes/footer.php');?>
+  <?php include('admin/includes/simple-footer.php'); ?>
     <script src="assets/js/jquery-1.11.1.js"></script>
     <script src="assets/js/bootstrap.js"></script>
 

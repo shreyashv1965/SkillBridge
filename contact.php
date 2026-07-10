@@ -1,5 +1,10 @@
-<?php include('admin/includes/config.php'); ?>
-<?php include('admin/includes/header.php'); ?> 
+<?php
+session_start();
+include("includes/config.php");
+?>
+
+<?php include("includes/header.php"); ?>
+<?php include("includes/home-menubar.php"); ?>
 
 <div class="container" style="padding:40px;">
     <h2>Contact Us</h2>
@@ -26,4 +31,4 @@
     </form>
 </div>
 
-<?php include('admin/includes/footer.php'); ?>
+<?php include('includes/simple-footer.php'); ?>
