@@ -1,4 +1,4 @@
-<?php $base = "/onlinecourse/"; ?>
+<?php $base = "/SkillBridge/"; ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -18,18 +18,27 @@
 <body>
 
 <!-- TOP HEADER -->
-<div class="navbar navbar-inverse set-radius-zero" style="padding:18px 0;">
-    <div class="container">
-        <div class="navbar-header">
-            <div style="color:white; line-height:1.2;">
-                <div style="font-size:22px; font-weight:bold;">
-                    SkillBridge
-                </div>
-                <div style="font-size:13px; color:#ddd;">
-                    Online Course Registration
-                </div>
+<div class="navbar-header">
+
+    <a href="<?php echo $base; ?>" style="display:flex;align-items:center;text-decoration:none;color:white;">
+
+        <img src="<?php echo $base; ?>assets/img/logo.png"
+             alt="SkillBridge Logo"
+             style="width:55px;height:55px;margin-right:15px;">
+
+        <div>
+
+            <div style="font-size:28px;font-weight:bold;color:white;line-height:1;">
+                SkillBridge
             </div>
+
+            <div style="font-size:14px;color:#f5f5f5;">
+                Online Course Registration System
+            </div>
+
         </div>
-    </div>
+
+    </a>
+
 </div>
 <!-- TOP HEADER END -->
